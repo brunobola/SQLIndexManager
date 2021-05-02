@@ -98,6 +98,12 @@
     <Compile Include="Forms\ActionBox.Designer.cs">
       <DependentUpon>ActionBox.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\ConnectionManagerBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ConnectionManagerBox.Designer.cs">
+      <DependentUpon>ConnectionManagerBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\ErrorBox.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -172,6 +178,9 @@
     <Compile Include="Types\WarningType.cs" />
     <EmbeddedResource Include="Forms\ActionBox.resx">
       <DependentUpon>ActionBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConnectionManagerBox.resx">
+      <DependentUpon>ConnectionManagerBox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\ErrorBox.resx">
       <DependentUpon>ErrorBox.cs</DependentUpon>

@@ -31,7 +31,10 @@ namespace SQLIndexManager {
 
     public static ServerInfo ServerInfo => _activeHost.ServerInfo;
 
-    public static List<Host> Hosts => Instance.Hosts;
+    public static List<Host> Hosts {
+      get => Instance.Hosts;
+      set => Instance.Hosts = value;
+    }
 
     public static Options Options {
       get => Instance.Options;
